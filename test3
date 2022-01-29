@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int summ;
+
+int factorial(int f) 
+{
+    int i = 1;
+    if (f == 1 || f == 0) return 1;
+    i++; 
+    summ = f * factorial(f - 1); 
+    return summ;
+}
+
+int main()
+{
+    int n; 
+    cout << "Enter n!: ";
+    cin >> n;
+    cout << n << "!" << "=" << factorial(n); 
+    return 0;
+}
+
