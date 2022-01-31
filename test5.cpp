@@ -13,7 +13,7 @@ int main()
 		for (int j = 0; j < n; j++)
 			cout << matr[i][j] << " ";
 		cout << endl;
-			}*//
+			}*/
 
 	int det = matr[0][0] * matr[1][1] * matr[2][2] - matr[0][0] * matr[1][2] * matr[2][1]
 		- matr[0][1] * matr[1][0] * matr[2][2] + matr[0][1] * matr[1][2] * matr[2][0]
